@@ -80,7 +80,7 @@ const game = require("./lib/game");
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 
 join = '\`\`\`𝘽𝙚𝙗𝙖𝙣 𝘽𝙖𝙧𝙪\`\`\` \n \`\`\`Nama :\`\`\` \n \`\`\`Askot : \`\`\` \n \`\`\`Umur :\`\`\` \n \`\`\`Status :\`\`\` \n\n - [ Subscrib chanel yt VinzBot ] -'
-leave = '\`\`\`𝘽𝙮𝙚𝙚 𝘼𝙣𝙖𝙠 𝘼𝙟𝙜👋\`\`\` \n\n - [ Subscrib chanel yt VinzBot ] -'
+leave = '\`\`\`𝘽𝙮𝙚𝙚 𝘼𝙣𝙖𝙠 𝘼𝙟𝙜👋\`\`\` \n\n - [ Free Bot ] -'
 const simple = require('./lib/simple.js')
 let fakeimage = fs.readFileSync("./media/wpmobile.png")
 let errorImg = 'https://i.ibb.co/FBm52Pt/1e0fe6a08b67.jpg'
@@ -1190,8 +1190,8 @@ ${ucapanWaktu} Kak ${pushname} 👋
 ❏ *18+ MENU*
 ❏ *ISLAM MENU*
 ❏ *RANDOM TEXT*
-❏ *MOVIE MENU
-❏ *RANDOM IMAGE
+❏ *MOVIE MENU*
+❏ *RANDOM IMAGE*
 ❏ *EPHOTO*
 ❏ *PHOTOKY*
 ❏ *TEXT PRO*
@@ -1207,7 +1207,7 @@ ${ucapanWaktu} Kak ${pushname} 👋
               
                 
 
-                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'YT VinzBot☕', buttons: [{ buttonId: `!command`, buttonText: { displayText: '📙MENU' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '🏷️ SEWA BOT' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👥 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'Free Bot☕', buttons: [{ buttonId: `!command`, buttonText: { displayText: '📙MENU' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '🏷️ SEWA BOT' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👥 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
               break
 case 'f':
 case 'lock':
